@@ -1,0 +1,132 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  a {
+    text-decoration: none;
+   }
+  
+  .top-right-menu {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+  
+  }
+
+  .top-right-menu a {
+    margin-right: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .top-right-menu img {
+    width: 25px;
+    height: 25px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .top-right-menu button {
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .immg{
+     margin-top: 1px;
+  }
+
+
+  body, input, button {
+    font-size: 15px;
+    font-family: arial,sans-serif;
+    color: #202124;
+}
+  .dRYYxd {
+    display: flex;
+    flex: 0 0 auto;
+    margin-top: -5px;
+    align-items: stretch;
+    flex-direction: row;
+    height: 44px;
+}
+  
+
+  .s-input {
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  .s-input:focus {
+    border-color: dodgerblue;
+  }
+  .top-right-menu a, .top-right-menu img, .top-right-menu button {
+    margin-left: 10px;
+  }
+
+  .ssg{
+    height: auto;
+    width: 25px;
+  }
+
+  .lls{
+    height: auto;
+    width: 25px;
+  }
+  .button{
+    display: inline-block;
+    border-radius: 5px;
+    outline: none;
+    
+  }
+  
+  .box {
+    text-align: center;
+    margin: 20px;
+    
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .s-input {
+    padding: 5px;
+    margin: 5px 0;
+    width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 2rem;
+
+  }
+
+  .bkg{
+    margin: 15px;
+
+   /* footer divler arasında  boşluk */
+  }
+
+ 
+  
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    padding: 1% 11px;
+    
+  }
